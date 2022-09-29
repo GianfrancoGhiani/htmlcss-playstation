@@ -180,8 +180,15 @@ header a.nav-link:hover::after{
     max-width: 100%;
 }
 
-
-
+/* playstation now */
+#play-now{
+    background-color: var(--my-dark-blue);
+    color: var(--bs-white);
+}
+#play-now img{
+    width:70%;
+    max-width: 100%;
+}
 
 
 
