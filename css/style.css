@@ -26,6 +26,8 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
    */
     --my-orange-btn: #cd3d0f;
+    --my-dark-blue: #161c3b;
+    --my-lightgrey:#d9dadc;
 }
 
 .little-space{
@@ -168,12 +170,15 @@ header a.nav-link:hover::after{
     max-width: 100%;
 }
 #play-plus .mine{
-    background-color: #d9dadc;
+    background-color: var(--my-lightgrey);
     font-weight: 600;
 
 }
-
-
+/* store discount */
+#discount img{
+    width: 100%;
+    max-width: 100%;
+}
 
 
 
