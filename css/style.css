@@ -36,7 +36,7 @@
 button.mine{
 
 }
-header .mine, #hero .mine, #ps5-release .mine{
+header .mine, #ps5-release .mine{
     color: var(--bs-white);
 }
 
@@ -95,8 +95,9 @@ header a.nav-link:hover::after{
     width: 60%;
     max-width: 80%;
 }
-#hero .hero-txt .mine{
-    background-color: var(--my-orange-btn)
+#hero .hero-txt .mine, #it-takes-two .mine{
+    background-color: var(--my-orange-btn);
+    color: var(--bs-white);
 }
 .my-card img{
     max-width: 100%;
@@ -129,6 +130,21 @@ header a.nav-link:hover::after{
 #ps5-release .frst img{
     opacity: 1;
 }
+
+/* it takes two */
+#it-takes-two{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--bs-white);
+}
+#it-takes-two img{
+    width: 330px;
+}
+
 
 
 
@@ -164,4 +180,8 @@ header a.nav-link:hover::after{
     .hero-txt{
         max-width: 40%;
     }
+    #it-takes-two div{
+        width: 40%;
+    }
+
 }
