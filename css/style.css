@@ -88,7 +88,7 @@ header a.nav-link:hover::after{
     left: auto;
     bottom:1.5rem
 }
-#hero .row{
+#hero .row, #gamse-release .row{
     margin: 0;
 }
 #hero .hero-txt img{
@@ -145,7 +145,10 @@ header a.nav-link:hover::after{
     width: 330px;
 }
 
-
+/* games release */
+#gamse-release{
+    color: var(--bs-white);
+}
 
 
 
