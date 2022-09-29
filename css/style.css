@@ -88,9 +88,6 @@ header a.nav-link:hover::after{
     left: auto;
     bottom:1.5rem
 }
-#hero .row, #gamse-release .row{
-    margin: 0;
-}
 #hero .hero-txt img{
     width: 60%;
     max-width: 80%;
@@ -111,7 +108,7 @@ header a.nav-link:hover::after{
 #ps5-release :first-child{
     font-weight: 600;
 }
-#ps5-release .mine{
+#ps5-release .mine, #ps4-expl button.mine{
     background-color: var(--bs-blue);
 }
 #ps5-release .play{
@@ -146,13 +143,21 @@ header a.nav-link:hover::after{
 }
 
 /* games release */
-#gamse-release{
+#games-release{
     color: var(--bs-white);
 }
 
-
-
-
+/* ps4 section */
+#ps4-expl{
+    font-weight: 600;
+}
+#ps4-expl img{
+    max-width: 100%;
+}
+#ps4-expl button.mine{
+    font-size: 70%;
+    color: var(--bs-white);
+}
 
 
 
