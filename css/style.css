@@ -1,6 +1,6 @@
 /* general */
 :root {
-    --bs-blue: #0d6efd;
+    /* --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -24,7 +24,7 @@
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  
+   */
     --my-orange-btn: #cd3d0f;
 }
 
@@ -36,7 +36,7 @@
 button.mine{
 
 }
-header .mine, #hero .mine{
+header .mine, #hero .mine, #ps5-release .mine{
     color: var(--bs-white);
 }
 
@@ -88,16 +88,75 @@ header a.nav-link:hover::after{
     left: auto;
     bottom:1.5rem
 }
+#hero .row{
+    margin: 0;
+}
 #hero .hero-txt img{
     width: 60%;
     max-width: 80%;
 }
-#hero .hero-txt .btn{
+#hero .hero-txt .mine{
     background-color: var(--my-orange-btn)
 }
 .my-card img{
     max-width: 100%;
 }
+
+/* ps5 release  */
+#ps5-release div.text-uppercase{
+    color: var(--bs-blue);
+    font-size: 80%;
+}
+#ps5-release :first-child{
+    font-weight: 600;
+}
+#ps5-release .mine{
+    background-color: var(--bs-blue);
+}
+#ps5-release .play{
+    max-width: 100%;
+}
+#ps5-release .play img{
+    max-width: 100%;
+}
+#ps5-release .frst{
+    border-bottom: 2px solid var(--bs-blue);
+}
+#ps5-release .device img{
+    max-width: 100%;
+    opacity: 0.7;
+}
+#ps5-release .frst img{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
