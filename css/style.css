@@ -24,8 +24,21 @@
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  }
+  
+    --my-orange-btn: #cd3d0f;
+}
 
+.little-space{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+button.mine{
+
+}
+header .mine, #hero .mine{
+    color: var(--bs-white);
+}
 
 
                 /* specific */
@@ -62,3 +75,34 @@ header a.nav-link:hover::after{
 }
 /******************* main body *************/
 /* jumbotron */
+
+#hero .hero-img{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    max-width: 100%;
+}
+#hero .hero-txt{
+    position: absolute;
+    left: auto;
+    bottom:1.5rem
+}
+#hero .hero-txt img{
+    width: 60%;
+    max-width: 80%;
+}
+#hero .hero-txt .btn{
+    background-color: var(--my-orange-btn)
+}
+.my-card img{
+    max-width: 100%;
+}
+
+
+
+@media screen and (min-width:992px) {
+    .hero-txt{
+        max-width: 40%;
+    }
+}
