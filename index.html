@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>PlayStation</title>
 </head>
@@ -18,7 +16,7 @@
             <img src="img/sony_logo.svg" alt="sony_logo">
         </div>
         <!-- the white one goes as fixed when it reachs top:0 -->
-        <nav class="navbar navbar-expand-lg bg-white" aria-label="Fifth navbar example">
+        <nav class="navbar navbar-expand-lg bg-white sticky" aria-label="Fifth navbar example">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="play"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +88,9 @@
                         <a href="#"><button class="mine btn bg-dark rounded-5">Accedi</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class=" btn" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="btn" href="#">
+                            <img src="img/lens.svg" alt="lens">
+                        </a>
                     </li>
                 </ul>
               </div>
@@ -321,11 +321,32 @@
         <section id="play-now">
             <div class="container-fluid">
                 <div class="row hide little-space">
-                    <div class="col-12 col-md-6 col-lg-7 py-5">
+                    <div class="col-12 col-md-6 col-lg-7 ">
                         <img src="img/ps-now-logo-two-column.png" alt="play plus">
                         <p class="py-3">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
                         <button class="btn mine rounded-5 bg-light">Esplora PlayStation now</button>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- social meida section -->
+        <section id="social" class="little-space py-5">
+            <h2 class="text-center pb-5">Seguici sui social media</h2>
+            <div class="container-fluid">
+                <div class="row  g-2 row-cols-2 row-cols-md-4">
+                    <div class="col col-lg-2 offset-lg-2">
+                        <img src="img/fb.jpg" alt="facebook">
+                    </div>
+                    <div class="col col-lg-2">
+                        <img src="img/instagram.jpg" alt="instagram">
+                    </div>
+                    <div class="col col-lg-2">
+                        <img src="img/twt.jpg" alt="twitter">
+                    </div>
+                    <div class="col col-lg-2">
+                        <img src="img/youtube.png" alt="youtube">
+                    </div>
+                    
                 </div>
             </div>
         </section>
