@@ -101,6 +101,13 @@ header .btn img{
     height: 80vh;
     max-width: 100%;
 }
+#hero .my-card{
+    transition: transform 500ms;
+}
+#hero .my-card:hover{
+    box-shadow: 0 0 0 .1em var(--bs-blue), inset 0 0 0 .15em var(--bs-white);
+    transform: translate(0 , -.5rem);
+}
 #hero .hero-txt{
     position: absolute;
     left: auto;
