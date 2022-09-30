@@ -184,12 +184,15 @@ header a.nav-link:hover::after{
 #play-now{
     background-color: var(--my-dark-blue);
     color: var(--bs-white);
+    padding: 2rem 0;
 }
 #play-now img{
-    width:70%;
+    width:60%;
     max-width: 100%;
 }
-
+#play-now .mine:hover{
+    color: var(--bs-dark);
+}
 
 
 
@@ -201,7 +204,14 @@ header a.nav-link:hover::after{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right;
-        height: 300px
+        height: 300px;
+    }
+    #play-now .hide{
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 100%;
     }
 }
 
